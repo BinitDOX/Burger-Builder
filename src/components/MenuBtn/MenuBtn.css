@@ -1,0 +1,23 @@
+.MenuBtn {
+    margin: 10px;
+    display: flex;
+    height: 85%;
+    width: auto;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 16px;
+    cursor: pointer;
+  }
+  
+.MenuBtn:hover{
+    background-color: #8F5C2C;
+}
+
+@media (min-width: 500px) {
+  .MenuBtn {
+      display: none;
+  }
+}
